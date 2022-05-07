@@ -1,7 +1,6 @@
 package com.example.demo.common.interceptor;
 
 import cn.hutool.core.collection.CollectionUtil;
-import cn.hutool.core.io.file.FileReader;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import com.baomidou.mybatisplus.core.conditions.AbstractWrapper;
@@ -26,7 +25,6 @@ import org.apache.ibatis.session.RowBounds;
 import org.springframework.stereotype.Component;
 import org.springframework.util.ReflectionUtils;
 
-import java.io.File;
 import java.lang.reflect.Field;
 import java.util.*;
 import java.util.concurrent.atomic.AtomicBoolean;

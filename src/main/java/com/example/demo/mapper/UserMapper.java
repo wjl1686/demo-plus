@@ -1,7 +1,6 @@
 package com.example.demo.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-
 import com.example.demo.entity.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Options;
@@ -22,4 +21,10 @@ public interface UserMapper extends BaseMapper<User> {
             " FROM user mcs")
     void userAllDataStreamQuery(ResultHandler<User> handler);
 
+    /**
+     * 查询 根据主键 id 查询
+     * @author zhengkai.blog.csdn.net
+     * @date 2022/05/07
+     **/
+    User load(int id);
 }

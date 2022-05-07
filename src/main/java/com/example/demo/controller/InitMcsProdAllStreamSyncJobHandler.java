@@ -30,7 +30,7 @@ import java.util.concurrent.atomic.LongAdder;
 public class InitMcsProdAllStreamSyncJobHandler {
 
     @Autowired
-    private UserMapper mcsProdDAO;
+    private UserMapper userMapper;
 
 
     /**
@@ -103,7 +103,7 @@ public class InitMcsProdAllStreamSyncJobHandler {
 
     private void executeMcsProdSyncEs() {
         BlockingQueue<User> blockingQueueCachePool = new LinkedBlockingDeque(MAX_POOL_SIZE);
-        mcsProdDAO.userAllDataStreamQuery(resultContext -> {
+        userMapper.userAllDataStreamQuery(resultContext -> {
             int temp = 0;
             int queueSize = 0;
             // 记录流式查询总数量
