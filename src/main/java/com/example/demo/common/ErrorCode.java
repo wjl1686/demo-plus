@@ -3,16 +3,15 @@ package com.example.demo.common;
 /**
  * 异常码
  *
- * @author gonghs
+ * @author wujlong
  * @version 1.0
- * @since 2019-07-27 16:01
+ * @since 2022-05-07 14:01
  */
 public enum ErrorCode {
     // 未知的系统错误
     UNKNOWN_ERROR(160001, "未知错误"),
     VALIDATION_ERROR(160002, "参数错误"),
-    SERVICE_ERROR(160003, "服务异常"),
-    ;
+    SERVICE_ERROR(160003, "服务异常");
 
     /**
      * 响应码

@@ -9,13 +9,13 @@ import java.util.Date;
 
 
 /**
- * 招采基药返回
+ * user对象
  *
  * @author wujl2
- * @since 2021-03-10
+ * @since 2022-03-10
  */
 @Data
-@ApiModel(value = "user对象", description = "招采基药")
+@ApiModel(value = "user对象", description = "user对象")
 public class UserRespDTO {
 
     @ApiModelProperty(value = "ID")

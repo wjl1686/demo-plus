@@ -1,4 +1,4 @@
-package com.example.demo.common.interceptor;
+package com.example.demo.common.interceptor.chain.handler;
 
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.beans.factory.annotation.Autowired;

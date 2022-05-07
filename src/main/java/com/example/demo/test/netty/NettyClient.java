@@ -1,4 +1,4 @@
-package com.example.demo.common.interceptor.netty;
+package com.example.demo.test.netty;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;

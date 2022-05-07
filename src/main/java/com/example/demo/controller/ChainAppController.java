@@ -1,7 +1,7 @@
 package com.example.demo.controller;
 
 
-import com.example.demo.common.interceptor.VerifyHandlerChain;
+import com.example.demo.common.interceptor.chain.handler.VerifyHandlerChain;
 import com.google.common.collect.Lists;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

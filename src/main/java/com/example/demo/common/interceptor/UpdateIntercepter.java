@@ -18,7 +18,7 @@ import java.util.Properties;
 @Slf4j
 @Intercepts(@Signature(type = Executor.class, method = "update", args = {MappedStatement.class,
         Object.class}))
-//@Component
+@Component
 public class UpdateIntercepter implements Interceptor {
 
     @Override
