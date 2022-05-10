@@ -9,7 +9,7 @@ import java.util.Date;
 /**
  * 基础变量
  *
- * @author zhangjun
+ * @author wujlong
  * @date 2019/7/3 16:09
  */
 public class BaseConstant {

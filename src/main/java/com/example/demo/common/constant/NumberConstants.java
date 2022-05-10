@@ -3,7 +3,7 @@ package com.example.demo.common.constant;
 import java.math.BigDecimal;
 
 /**
- * @author：zl
+ * @author：wujlong
  * @date：2021-07-26 10:22
  * @description 数字常量类
  */

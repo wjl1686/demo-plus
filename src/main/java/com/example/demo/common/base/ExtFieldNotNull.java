@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * 判断外部数据字段不可为空标志
  *
- * @author machen
+ * @author wujlong
  * @date 2020/8/21 17:15
  */
 @Target(ElementType.FIELD)

@@ -15,7 +15,7 @@ import java.util.Objects;
 /**
  * mybatis-plus审计字段自填充设置
  *
- * @author zhangjun
+ * @author wujlong
  * @date 2019/7/3 16:09
  */
 @Component

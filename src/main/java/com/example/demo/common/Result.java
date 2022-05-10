@@ -6,7 +6,7 @@ import com.example.demo.common.util.WrapperResponse;
 /**
  * Result对象
  *
- * @author gonghs
+ * @author wujlong
  * @version 1.0
  * @since 2019-07-27 15:43
  */

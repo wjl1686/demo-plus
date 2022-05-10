@@ -8,7 +8,7 @@ import java.util.Date;
 /**
  * 外部数据基础信息
  *
- * @author machen
+ * @author wujlong
  * @date 2020/11/3 12:07
  */
 @Data

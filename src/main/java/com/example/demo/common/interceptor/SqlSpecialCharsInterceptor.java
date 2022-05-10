@@ -32,7 +32,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 /**
  * SQL特殊字符 % and _ 过滤
  *
- * @author machen
+ * @author wujlong
  * @date 2020/6/29 10:38
  */
 @Slf4j

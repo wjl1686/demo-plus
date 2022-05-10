@@ -6,7 +6,7 @@ import lombok.EqualsAndHashCode;
 /**
  * 业务系统业务逻辑相关异常
  *
- * @author gonghs
+ * @author wujlong
  * @version V1.0
  * @since 2019-7-27
  */

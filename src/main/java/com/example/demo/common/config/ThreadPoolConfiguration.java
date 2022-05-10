@@ -14,7 +14,7 @@ import java.util.concurrent.LinkedBlockingDeque;
 /**
  * 线程池资源管理
  *
- * @author machen
+ * @author wujlong
  * @date 2020/10/18 23:19
  */
 @Slf4j

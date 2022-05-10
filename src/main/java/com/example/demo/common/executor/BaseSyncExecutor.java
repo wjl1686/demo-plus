@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * 基础同步执行
  *
- * @author machen
+ * @author wujlong
  * @date 2020/11/5 14:05
  */
 @Slf4j

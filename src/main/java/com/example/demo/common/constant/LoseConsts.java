@@ -5,7 +5,7 @@ package com.example.demo.common.constant;
  * @package: cn.hsa.tps.losecred.constant
  * @className: LoseConsts
  * @description:
- * @author: zhi
+ * @author: wujlong
  * @date: 2020/12/22 下午6:26
  * @version: 1.0
  */

@@ -9,7 +9,7 @@ import java.util.Date;
 /**
  * 外部拉取数据入参
  *
- * @author machen
+ * @author wujlong
  * @date 2020/7/10 15:19
  */
 @Getter

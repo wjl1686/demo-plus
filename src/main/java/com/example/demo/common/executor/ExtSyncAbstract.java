@@ -26,7 +26,7 @@ import java.util.stream.Collectors;
 /**
  * 外部数据同步模版类
  *
- * @author machen
+ * @author wujlong
  * @date 2020/7/9 10:59
  */
 @Slf4j

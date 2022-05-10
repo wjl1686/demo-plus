@@ -20,7 +20,7 @@ import java.util.stream.Collectors;
  * 检查外部数据字段是否为空
  * TODO: 后续会使用责任链模式多重校验
  *
- * @author machen
+ * @author wujlong
  * @date 2020/10/19 11:15
  */
 @Component

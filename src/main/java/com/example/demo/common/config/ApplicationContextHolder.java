@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 /**
  * 提供全局获取AppContext的方法
  *
- * @author zhangjun
+ * @author wujlong
  * @date 2019/7/21 18:56
  */
 @Component

@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * 外部数据同步全局配置
  *
- * @author machen
+ * @author wujlong
  * @date 2020/11/5 14:32
  */
 public class ExtConfiguration {

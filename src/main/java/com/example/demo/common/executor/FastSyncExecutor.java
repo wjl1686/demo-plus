@@ -12,7 +12,7 @@ import java.util.concurrent.ExecutorService;
 /**
  * 快速同步执行器
  *
- * @author machen
+ * @author wujlong
  * @date 2020/11/5 14:18
  */
 @Slf4j

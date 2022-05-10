@@ -5,7 +5,7 @@ import java.util.Date;
 /**
  * 外部数据同步ES模型
  *
- * @author machen
+ * @author wujlong
  * @date 2020/7/9 10:56
  */
 public interface ExtEsSyncModel {
