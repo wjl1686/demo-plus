@@ -1,8 +1,8 @@
-package com.example.demo.extdto.convert;
+package com.example.demo.common.extdto.convert;
 
+import com.example.demo.common.extdto.convert.trans.InvdFlagTransForm;
 import com.example.demo.entity.AdmdvsInfoDO;
-import com.example.demo.extdto.PlcAdmdvsDTO;
-import com.example.demo.extdto.convert.trans.InvdFlagTransForm;
+import com.example.demo.common.extdto.PlcAdmdvsDTO;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;

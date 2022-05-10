@@ -1,4 +1,4 @@
-package com.example.demo.constant;
+package com.example.demo.common.constant;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.example.demo.common.base.ExtPage;

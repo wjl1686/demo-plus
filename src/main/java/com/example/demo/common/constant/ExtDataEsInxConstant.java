@@ -1,4 +1,4 @@
-package com.example.demo.constant;
+package com.example.demo.common.constant;
 
 /**
  * 外部数据同步ES索引名称

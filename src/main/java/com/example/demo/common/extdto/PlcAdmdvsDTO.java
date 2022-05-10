@@ -1,4 +1,4 @@
-package com.example.demo.extdto;
+package com.example.demo.common.extdto;
 
 import com.example.demo.common.base.ExtBaseDTO;
 import lombok.Data;

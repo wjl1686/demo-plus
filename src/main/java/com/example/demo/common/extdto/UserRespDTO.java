@@ -1,4 +1,4 @@
-package com.example.demo.extdto;
+package com.example.demo.common.extdto;
 
 import com.alibaba.fastjson.annotation.JSONField;
 import io.swagger.annotations.ApiModel;

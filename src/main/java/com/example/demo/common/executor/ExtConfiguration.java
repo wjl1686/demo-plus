@@ -1,6 +1,6 @@
-package com.example.demo.executor;
+package com.example.demo.common.executor;
 
-import com.example.demo.constant.ExtDataEsInxConstant;
+import com.example.demo.common.constant.ExtDataEsInxConstant;
 import com.google.common.collect.Lists;
 
 import java.util.List;

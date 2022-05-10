@@ -1,4 +1,4 @@
-package com.example.demo.extdto.convert.trans;
+package com.example.demo.common.extdto.convert.trans;
 
 import com.example.demo.common.enums.InvdFlagEnum;
 import org.apache.commons.lang3.StringUtils;

@@ -1,4 +1,4 @@
-package com.example.demo.extdto.convert.trans;
+package com.example.demo.common.extdto.convert.trans;
 
 import org.apache.commons.lang3.StringUtils;
 import org.mapstruct.Named;

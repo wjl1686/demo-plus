@@ -1,4 +1,4 @@
-package com.example.demo.executor;
+package com.example.demo.common.executor;
 
 
 import cn.hutool.core.collection.CollectionUtil;
@@ -10,8 +10,8 @@ import com.example.demo.common.base.ExtFetchDataRequest;
 import com.example.demo.common.base.ExtPage;
 import com.example.demo.common.util.PageResult;
 import com.example.demo.common.util.WrapperResponse;
-import com.example.demo.constant.BaseConstant;
-import com.example.demo.constant.ExtDataEsInxConstant;
+import com.example.demo.common.constant.BaseConstant;
+import com.example.demo.common.constant.ExtDataEsInxConstant;
 import com.google.common.collect.Lists;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;

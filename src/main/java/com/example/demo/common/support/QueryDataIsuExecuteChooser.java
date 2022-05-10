@@ -1,4 +1,4 @@
-package com.example.demo.task.support;
+package com.example.demo.common.support;
 
 import com.example.demo.common.config.ApplicationContextHolder;
 import com.google.common.collect.Maps;

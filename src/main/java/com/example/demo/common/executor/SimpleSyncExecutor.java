@@ -1,4 +1,4 @@
-package com.example.demo.executor;
+package com.example.demo.common.executor;
 
 /**
  * 简单同步执行器

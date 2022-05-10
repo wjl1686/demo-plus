@@ -1,14 +1,8 @@
-package com.example.demo.task.support;
+package com.example.demo.common.support;
 
 import java.util.List;
 
-/**
- * 数据下发执行器
- *
- * @author wujlong
- * @date 2021/2/14 上午10:58
- */
-public abstract class AbstractDataIsuExecuteStrategy<T> {
+public interface TT<T> {
 
     /**
      * 执行下发任务

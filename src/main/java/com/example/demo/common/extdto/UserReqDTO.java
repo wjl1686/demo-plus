@@ -1,4 +1,4 @@
-package com.example.demo.extdto;
+package com.example.demo.common.extdto;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import io.swagger.annotations.ApiModel;

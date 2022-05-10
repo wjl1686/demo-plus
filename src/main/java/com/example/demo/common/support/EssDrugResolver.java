@@ -1,4 +1,4 @@
-package com.example.demo.task.support;
+package com.example.demo.common.support;
 
 import com.example.demo.entity.User;
 import com.example.demo.service.UserService;
