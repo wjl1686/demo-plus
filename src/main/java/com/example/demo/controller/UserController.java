@@ -85,7 +85,7 @@ public class UserController {
             System.out.println("线程namae=" + Thread.currentThread().getName());
             userService.saveOrUpdateBatch(list);
         } catch (Exception ex) {
-            log.error(" [Error] 基础数据同步耗材数据 -> ElasticSearch 执行失败" , ex);
+            log.error(" [Error] 基础数据同步耗材数据 -> ElasticSearch 执行失败", ex);
         } finally {
             // copyList = null;
         }
@@ -98,7 +98,7 @@ public class UserController {
         if (CollectionUtils.isEmpty(list)) {
             return "data is empty";
         }
-        redisTemplate.opsForValue().set("qq" , 11);
+        redisTemplate.opsForValue().set("qq", 11);
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();
         for (int i = 0; i < 1005; i++) {
             User user = new User();
@@ -117,7 +117,7 @@ public class UserController {
     public String saveBath1(@RequestBody List<Integer> integers) {
 
         User load = userMapper.load(9121);
-        System.out.println(load);
+        System.out.println("load=" + JSON.toJSONString(load));
         Collections.sort(integers);
 
         System.out.println(integers.get(0));
@@ -130,7 +130,7 @@ public class UserController {
 
 
     @PostMapping("/selectPage")
-    @ApiOperation(value = "用户分页查询" , notes = "用户分页查询")
+    @ApiOperation(value = "用户分页查询", notes = "用户分页查询")
     public Result<IPage<UserRespDTO>> selectPage(@RequestBody UserReqDTO reqDTO) {
         return Results.success(userService.selectPage(reqDTO));
     }

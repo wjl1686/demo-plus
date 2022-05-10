@@ -42,9 +42,9 @@
         <typeHandler javaType="java.lang.Object" jdbcType="TIMESTAMP" handler="org.apache.ibatis.type.SqlTimestampTypeHandler"/>
     </typeHandlers>
     
-    <!--<plugins>
+    <plugins>
         <plugin interceptor="com.example.demo.common.interceptor.SqlSpecialCharsInterceptor" />
-    </plugins>-->
+    </plugins>
 
 
 </configuration>
